@@ -1,0 +1,95 @@
+
+.box {
+    width: 30vw;
+    text-align: center;
+}
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    z-index: -1000;
+}
+.content img {
+height: 1000px;
+width: 1550px;
+}
+.heading {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    z-index: -11;
+    min-height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    padding: 2px;
+}
+
+.links a {
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+.links h4:hover {
+    transition: background-color 0.5s;
+    transition: opacity 0.5s;
+    color: black;
+    opacity: 0.3;
+    background-color: rgb(185, 247, 15) !important;
+    border: 2px solid white;
+}
+
+.links a h4 {
+    font-size: 20px;
+    padding: 2px;
+    color: yellow;
+    border: 2px solid rgb(235, 231, 13);
+    border-radius: 10px;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    padding: 2px;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 2px solid black;
+}
+
+#icon i:hover {
+    color: blue !important;
+    transition: background-color 1s;
+    transition: opacity 0.5s;
+    opacity: 0.8;
+    /* background-color: darkorchid; */
+    border-radius: 5px;
+}
+.names {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 400px 400px 400px;
+}

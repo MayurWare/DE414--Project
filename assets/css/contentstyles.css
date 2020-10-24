@@ -1,0 +1,208 @@
+/* Buttons and logos */
+
+.btn-style {
+  background-color: #111;
+  color: #818181;
+} 
+
+.logo-style {
+  height: 72px;
+  transition: 0.3s;
+  margin: 0 auto 0 auto;
+  margin-bottom: 18pt;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 270px;
+  margin-right: 15px;
+  padding: 16px 16px;
+  margin-bottom: 8px; 
+}
+
+div.content a{
+  font-weight: bolder;
+  color: #006a92;
+  text-decoration: underline;
+}
+
+div.data-img{
+  text-align: justify;
+  height: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+
+div.data-img img{
+  width:30%;
+  object-fit: cover;
+}
+
+div.data-text{
+  padding: 8px;
+  height: 96%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*text bold/strong/sidebar font size*/
+strong {
+  font-weight:bold; 
+  color: black;
+}
+
+b {
+  font-weight:bold; 
+  color: black;
+}
+
+/*dropdown menu on hover section for navbar*/
+
+/* Dropdown Button */
+.dropbtn {
+  padding: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/*quote styling*/
+
+blockquote{
+  font-size: 18px;
+  margin: .5em 10px;
+  padding: 0 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 0 20px;
+  line-height: 1.4;
+  color: black;
+  padding-top: 0.9em;
+}
+
+blockquote:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 45px;
+  color: #d2a6b3;
+  font-size: 6em;
+}
+
+blockquote:after {
+  visibility: hidden;
+  content: close-quote;
+}
+
+p{
+  margin: 0;
+}
+
+footer{
+  margin:0;
+  padding-top: 0.9em;
+  text-align: right;
+  font-size: 1em;
+  color: black;
+}
+
+
+/* On screens that are less than 768px wide, shift the content back to the left
+and adjust the navbar */
+@media screen and (max-width: 767px) {
+  div.content {margin-left: 6px; margin-right: 6px;}
+  div.content {margin-top: 0px;}
+  .logo-style {height: 54px; padding: 1px; margin: 0;}
+  div.data-img img{
+    width:80%;
+  }
+}
+
+
+/**********New styles***********/
+.content-block{
+ 
+  border-bottom: 2px solid rgba(18,18,18,0.2);
+
+  font-size: medium;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+th:not(:last-child), td:not(:last-child) { border-right: 2px solid #daafc0; }
+tr:nth-child(even) {background-color:rgb(73.33%, 64.31%, 65.49%, 0.5);}
+tr:nth-child(odd) {background-color: #bba4a7;}
+h3 {
+  text-align: center;
+}
+
+/* Bottom Designing */
+.bottom img {
+  height: 90px;
+  width: 90px;
+  padding: 10px;
+}
+.mainlogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.bot1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+  
+#pp{
+  text-align: center;
+  }
+
+#bottom{
+  width:35vw;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.bottom{
+  font-family: 'Balsamiq Sans', cursive;
+}
