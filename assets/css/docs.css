@@ -5,3 +5,35 @@ body {
 a {
   cursor: pointer;
 }
+.ImageAdd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+.ImageAdd img{
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2px;
+  margin: 5px;
+  height: 400px;
+  width: 450px;
+}
+.ImageAdd1{
+  display: flex;
+}
+@media screen and (max-width:767px)
+{
+  .ImageAdd1{
+    display: flex;
+    flex-direction: column;
+  } 
+  .ImageAdd img{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 5px;
+    height: 350px;
+    width: 300px;
+  }
+}

@@ -18,6 +18,7 @@ div.content {
   margin-right: 15px;
   padding: 16px 16px;
   margin-bottom: 8px; 
+  height: auto;
 }
 
 div.content a{
@@ -154,9 +155,9 @@ and adjust the navbar */
 /**********New styles***********/
 .content-block{
  
-  border-bottom: 2px solid rgba(18,18,18,0.2);
+  border-top: 2px solid rgba(18,18,18,0.2);
 
-  font-size: medium;
+  font-size: 20px;
 }
 
 table {
