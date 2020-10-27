@@ -29,7 +29,9 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-left">
-        <a class="navbar-brand logo-style" style="color: #121212;"><h3>THE 7 Cs</h3></a>
+        <a class="navbar-brand logo-style" style="color: #121212;">
+            <h3>THE 7 Cs</h3>
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,17 +84,51 @@
 
 
         <div class="content-block mt-5">
-          <p><strong>The Check :</strong></p>
-<p>The check is essential to understand what requirements the product should ultimately cater to 
-and what problems it should resolve. The check, which is a product brief is created from the 
-design insights and is approved by the client. The product brief becomes the criterion for 
-creating ideas and evaluating the concepts.</p><hr>
-<div style="text-align: center">
-    <button class="btn" onclick="window.location = 'comprehension.html'">&larr; The Comprehension
-    </button>
-    <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
-    <button class="btn" onclick="window.location = 'conception.html'">The Conception &rarr;</button>
-</div>
+            <p><strong>The Check :</strong></p>
+            <p>The check is essential to understand what requirements the product should ultimately cater to
+                and what problems it should resolve. The check, which is a product brief is created from the
+                design insights and is approved by the client. The product brief becomes the criterion for
+                creating ideas and evaluating the concepts.</p>
+            <hr>
+            <p>Here are some Checks :</p>
+            <ul>
+                <p>Product should be</p>
+                <li>
+                    <p>Easy to use and carry</p>
+                </li>
+                <li>
+                    <p>Light weight</p>
+                </li>
+
+            </ul>
+            <div style="text-align: center">
+                <button class="btn" onclick="window.location = 'comprehension.html'">&larr; The Comprehension
+                </button>
+                <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
+                <button class="btn" onclick="window.location = 'conception.html'">The Conception &rarr;</button>
+            </div>
+            <div class="container my-3">
+                <h3 style="text-align: center;">Comments</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-transform: none;">Name</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" id="addTxt11" rows="1"></textarea>
+                        </div>
+                        <h5 class="card-title" style="text-transform: none;">Add a comment</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" id="addTxt1" rows="2"></textarea>
+                        </div>
+                        <button class="btn btn-primary" id="addBtn1">Add Note</button>
+                    </div>
+                </div>
+                <hr>
+                <h3 style="text-align: center;">Previous Comments</h3>
+                <hr>
+                <div class="row container-fluid">
+                    <div id="notes1" style="display: contents;"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -106,7 +142,7 @@ creating ideas and evaluating the concepts.</p><hr>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-
+<script src="./main1.js"></script>
 </body>
 
 </html>

@@ -98,6 +98,28 @@
                     <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
                     <button class="btn" onclick="window.location = 'crafting.html'">The Crafting &rarr;</button>
                 </div>
+                <div class="container my-3">
+                    <h3 style="text-align: center;">Comments</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-transform: none;">Name</h5>
+                            <div class="form-group">
+                                <textarea class="form-control" id="addTxt13" rows="1"></textarea>
+                            </div>
+                            <h5 class="card-title" style="text-transform: none;">Add a comment</h5>
+                            <div class="form-group">
+                                <textarea class="form-control" id="addTxt3" rows="2"></textarea>
+                            </div>
+                            <button class="btn btn-primary" id="addBtn3">Add Note</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3 style="text-align: center;">Previous Comments</h3>
+                    <hr>
+                    <div class="row container-fluid">
+                        <div id="notes3" style="display: contents;"></div>
+                    </div>
+                </div>
         </div>
     </div>
 
@@ -111,7 +133,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-
+        <script src="./main3.js"></script>
 </body>
 
 </html>

@@ -29,7 +29,9 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-left">
-        <a class="navbar-brand logo-style" style="color: #121212;"><h3>The 7 Cs</h3></a>
+        <a class="navbar-brand logo-style" style="color: #121212;">
+            <h3>The 7 Cs</h3>
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,19 +84,42 @@
 
 
         <div class="content-block mt-5">
-          <p><strong>The Crafting :</strong></p>
-<p>The final concept is further refined against various criteria like the use of material and manufacturing 
-limitations. Depending on the user profile, the designer at this stage creates several style 
-options and zeroes in on the one that addresses the aesthetics concerns in the best manner. 
-The final product design is showcased by creating small-scale mock-up models, CAD models or 
-working prototypes. The final product which meets the product brief conditions is then taken up 
-for mass production.</p><hr>
-<div style="text-align: center">
-    <button class="btn" onclick="window.location = 'conception.html'">&larr; The Conception
-    </button>
-    <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
-    <button class="btn" onclick="window.location = 'connection.html'">The Connection &rarr;</button>
-</div>
+            <p><strong>The Crafting :</strong></p>
+            <p>The final concept is further refined against various criteria like the use of material and manufacturing
+                limitations. Depending on the user profile, the designer at this stage creates several style
+                options and zeroes in on the one that addresses the aesthetics concerns in the best manner.
+                The final product design is showcased by creating small-scale mock-up models, CAD models or
+                working prototypes. The final product which meets the product brief conditions is then taken up
+                for mass production.</p>
+            <hr>
+            <div style="text-align: center">
+                <button class="btn" onclick="window.location = 'conception.html'">&larr; The Conception
+                </button>
+                <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
+                <button class="btn" onclick="window.location = 'connection.html'">The Connection &rarr;</button>
+            </div>
+            <div class="container my-3">
+                <h3 style="text-align: center;">Comments</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-transform: none;">Name</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" id="addTxt16" rows="1"></textarea>
+                        </div>
+                        <h5 class="card-title" style="text-transform: none;">Add a comment</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" id="addTxt6" rows="2"></textarea>
+                        </div>
+                        <button class="btn btn-primary" id="addBtn6">Add Note</button>
+                    </div>
+                </div>
+                <hr>
+                <h3 style="text-align: center;">Previous Comments</h3>
+                <hr>
+                <div class="row container-fluid">
+                    <div id="notes6" style="display: contents;"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -108,7 +133,7 @@ for mass production.</p><hr>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-
+        <script src="./main6.js"></script>
 </body>
 
 </html>

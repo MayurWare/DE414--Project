@@ -29,7 +29,9 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-left">
-        <a class="navbar-brand logo-style" style="color: #121212;"><h3>The 7 cs</h3></a>
+        <a class="navbar-brand logo-style" style="color: #121212;">
+            <h3>The 7 cs</h3>
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,15 +84,38 @@
 
 
         <div class="content-block mt-5">
-       <p><strong>The Conception :</strong></p>
-<p>Using the checklist the designer arrives at multiple ideas to resolve the problems listed. This is a 
-very important stage that starts with conceiving ideas, grouping them into clusters, arriving at 
-multiple concepts and finally zeroing in on one all-encompassing concept.</p><hr>
-<div style="text-align: center">
-    <button class="btn" onclick="window.location = 'crafting.html'">&larr; The Crafting
-    </button>
-    <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
-</div>
+            <p><strong>The Conception :</strong></p>
+            <p>Using the checklist the designer arrives at multiple ideas to resolve the problems listed. This is a
+                very important stage that starts with conceiving ideas, grouping them into clusters, arriving at
+                multiple concepts and finally zeroing in on one all-encompassing concept.</p>
+            <hr>
+            <div style="text-align: center">
+                <button class="btn" onclick="window.location = 'crafting.html'">&larr; The Crafting
+                </button>
+                <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
+            </div>
+            <div class="container my-3">
+                <h3 style="text-align: center;">Comments</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-transform: none;">Name</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" id="addTxt14" rows="1"></textarea>
+                        </div>
+                        <h5 class="card-title" style="text-transform: none;">Add a comment</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" id="addTxt4" rows="2"></textarea>
+                        </div>
+                        <button class="btn btn-primary" id="addBtn4">Add Note</button>
+                    </div>
+                </div>
+                <hr>
+                <h3 style="text-align: center;">Previous Comments</h3>
+                <hr>
+                <div class="row container-fluid">
+                    <div id="notes4" style="display: contents;"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -104,7 +129,7 @@ multiple concepts and finally zeroing in on one all-encompassing concept.</p><hr
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-
+        <script src="./main4.js"></script>
 </body>
 
 </html>

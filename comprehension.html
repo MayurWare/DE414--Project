@@ -29,7 +29,9 @@
 <body>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-left">
-        <a class="navbar-brand logo-style" style="color: #121212;"><h3>The 7 Cs</h3></a>
+        <a class="navbar-brand logo-style" style="color: #121212;">
+            <h3>The 7 Cs</h3>
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,16 +84,53 @@
 
 
         <div class="content-block mt-5">
-          <p><strong>The Comprehension :</strong></p>
-<p>The designer analyses all the information gathered and methodically lists out his observations 
-and perceptions of the issues involved and the causes behind. The design insights thus arrived 
-form the basis for the design intervention.</p><hr>
-<div style="text-align: center">
-    <button class="btn" onclick="window.location = 'context.html'">&larr; The Context
-    </button>
-    <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
-    <button class="btn" onclick="window.location = 'check.html'">The Check &rarr;</button>
-</div>
+            <p><strong>The Comprehension :</strong></p>
+            <p>The designer analyses all the information gathered and methodically lists out his observations
+                and perceptions of the issues involved and the causes behind. The design insights thus arrived
+                form the basis for the design intervention.</p>
+            <hr>
+            <p>Here are some findings after doing The Context part :</p>
+            <ul>
+                <li>
+                    <p>The pain experienced in shoulders and legs need to be reduced.</p>
+                </li>
+                <li>
+                    <p>Also new way of carrying water need to be thought of as the existing one causes pain on the head
+                        as well.</p>
+                </li>
+                <li>
+                    <p>If the product serves the purpose of both fetching and filtering;it would be advantageous.</p>
+                </li>
+
+            </ul>
+            <div style="text-align: center">
+                <button class="btn" onclick="window.location = 'context.html'">&larr; The Context
+                </button>
+                <button class="btn" onclick="document.documentElement.scrollTop=0;">Back To Top</button>
+                <button class="btn" onclick="window.location = 'check.html'">The Check &rarr;</button>
+            </div>
+            <div class="container my-3">
+                <h3 style="text-align: center;">Comments</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-transform: none;">Name</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" id="addTxt12" rows="1"></textarea>
+                        </div>
+                        <h5 class="card-title" style="text-transform: none;">Add a comment</h5>
+                        <div class="form-group">
+                            <textarea class="form-control" id="addTxt2" rows="2"></textarea>
+                        </div>
+                        <button class="btn btn-primary" id="addBtn2">Add Note</button>
+                    </div>
+                </div>
+                <hr>
+                <h3 style="text-align: center;">Previous Comments</h3>
+                <hr>
+                <div class="row container-fluid">
+                    <div id="notes2" style="display: contents;"></div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -105,7 +144,7 @@ form the basis for the design intervention.</p><hr>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
-
+<script src="./main2.js"></script>
 </body>
 
 </html>
