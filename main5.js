@@ -50,7 +50,7 @@ function showNotes5() {
     if (notesObj5.length != 0) {
         notesElm5.innerHTML = html5;
     } else {
-        notesElm5.innerHTML = `Nothing to show! Use "Add a Note" section above to add notes.`;
+        notesElm5.innerHTML = `Nothing to show! Use "Add a comment" section above to add notes.`;
     }
 }
 

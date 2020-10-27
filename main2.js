@@ -49,7 +49,7 @@ function showNotes2() {
     if (notesObj2.length != 0) {
         notesElm2.innerHTML = html2;
     } else {
-        notesElm2.innerHTML = `Nothing to show! Use "Add a Note" section above to add notes.`;
+        notesElm2.innerHTML = `Nothing to show! Use "Add a comment" section above to add notes.`;
     }
 }
 
