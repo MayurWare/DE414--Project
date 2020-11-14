@@ -12,14 +12,15 @@ addBtn.addEventListener("click", function (e) {
     let c = p.getFullYear();
     var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     let d = days[p.getDay()];
-    let notes = localStorage.getItem("notes");
+    // let notes = localStorage.getItem("notes");
+    let notes = [];
     if (notes == null) {
         notesObj = [];
     } else {
         notesObj = JSON.parse(notes);
     }
     notesObj.push([addTxt.value, addTxt1.value, p, d, b, a, c]);
-    localStorage.setItem("notes", JSON.stringify(notesObj));
+    // localStorage.setItem("notes", JSON.stringify(notesObj));
     addTxt.value = "";
     addTxt1.value = "";
     showNotes();
@@ -27,7 +28,8 @@ addBtn.addEventListener("click", function (e) {
 
 // Function to show elements from localStorage
 function showNotes() {
-    let notes = localStorage.getItem("notes");
+    // let notes = localStorage.getItem("notes");
+    let notes = [];
     if (notes == null) {
         notesObj = [];
     } else {

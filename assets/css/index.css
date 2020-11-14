@@ -86,8 +86,8 @@ body{
         flex-direction: column;
     }
     .box1{
-        border: 2px solid white;
-        border-radius: 10px;
+        /* border: 2px solid white;
+        border-radius: 10px; */
         margin: 10px;
     }
 }
